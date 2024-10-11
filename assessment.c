@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	int total=0;
-	int in;
-	char moreOrder;
+	int total=0;           //variable declared to calculate the sub total of order to show at the end !!!
+	int in;                //variable declared to hold input of the menu !!!
+	char moreOrder;        //variable declared to hold input of further order y/n !!! 
 	
-	
+	//using do while loop to asking the input again if the user wants to order more !!!
 	do {
 		printf("\n-----------Menu---------------\n");
         printf("\n1. Pizza          price = 200rs/pcs");
@@ -72,9 +72,9 @@ int main()
         printf("\nDo you want to order more? (y/n): ");
         scanf(" %c", &moreOrder);
 	}
-	while (moreOrder =='y');                             // if the input is y the loop runs again and if the input anything else it breaks the loop!!!
+	while (moreOrder =='y');                            // if the input is y the loop runs again anything else will break the loop!!!
 	
-	printf("Your Final Bill is : %d", total);           //if the loop breaks the final bill will be printed !!!
+	printf("Your Final Bill is : %d", total);           //if the loop breaks the final bill will be printed using total variable !!!
 	
 	return 0;
 	
