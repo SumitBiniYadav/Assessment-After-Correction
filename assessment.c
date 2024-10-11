@@ -7,7 +7,7 @@ int main()
 	
 	//using do while loop to asking the input again if the user wants to order more !!!
 	do {
-		printf("\n-----------Menu---------------\n");
+	printf("\n--------------Menu---------------\n");
         printf("\n1. Pizza          price = 200rs/pcs");
         printf("\n2. Dosa           price = 120rs/pcs");
         printf("\n3. Burger         price = 60rs/pcs");
